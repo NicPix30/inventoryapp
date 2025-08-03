@@ -28,7 +28,7 @@
         android:layout_marginTop="0dp"
         android:gravity="center"
         android:textAlignment="center"
-        android:text="SKU: 3256156"
+        android:text="SKU: "
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="@id/nameText"
         app:layout_constraintTop_toBottomOf="@id/nameText"
@@ -41,7 +41,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="100dp"
         android:gravity="start"
-        android:text="DESC: peanut butter jelly time treats from FROMM"
+        android:text="DESC: "
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/skuText" />
@@ -53,7 +53,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="0dp"
         android:gravity="start"
-        android:text="total stock: 53"
+        android:text="total stock: "
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/descText" />
@@ -65,7 +65,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="0dp"
         android:gravity="start"
-        android:text="On floor: 10"
+        android:text="On floor: "
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/totalText" />
@@ -77,7 +77,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="0dp"
         android:gravity="start"
-        android:text="In back: 43"
+        android:text="In back: "
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ofText" />
