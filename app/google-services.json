@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052227238912",
+    "project_id": "invetory-f8860",
+    "storage_bucket": "invetory-f8860.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052227238912:android:9dc792080d1a070a0f6ce5",
+        "android_client_info": {
+          "package_name": "com.application.inventoryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPBxcOSU3Qp3B94I9BtbJL77N0ARfVpBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
