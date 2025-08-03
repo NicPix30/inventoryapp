@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/inputSku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SKU" />
+
+        <EditText
+            android:id="@+id/inputDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description" />
+
+        <EditText
+            android:id="@+id/inputTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total stock"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputOnFloor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="On floor"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputInBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="In back"
+            android:inputType="number" />
+    </LinearLayout>
+</ScrollView>

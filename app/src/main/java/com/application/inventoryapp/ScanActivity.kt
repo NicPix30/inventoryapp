@@ -109,13 +109,12 @@ class ScanActivity : AppCompatActivity() {
         ref.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.exists()) {
-                    // Item exists - get name and return
                     val itemName = snapshot.child("name").getValue(String::class.java) ?: barcode
-                    returnResult(itemName)
+                    returnResult(barcode)
                 } else {
-                    // Item doesn't exist - prompt user for name
-                    promptForName(barcode)
+                    returnResult(barcode) // <- this was missing!
                 }
+
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -125,6 +124,7 @@ class ScanActivity : AppCompatActivity() {
             }
         })
     }
+
 
     private fun promptForName(barcode: String) {
         runOnUiThread {
